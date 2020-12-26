@@ -24,6 +24,7 @@ class Rope {
          var anchor2X= pointB.x+ this.offsetX
          var anchor2Y= pointB.y+ this.offsetY
 
-        
+         line( pointB.x+this.offsetX,pointB.y,pointA.x,pointA.y )
+    }
     }
 }
